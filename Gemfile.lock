@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    thocky_palindrome (0.1.0)
+    thocky_palindrome (0.2.0)
 
 GEM
   remote: https://rubygems.org/
