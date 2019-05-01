@@ -2,7 +2,7 @@ require "thocky_palindrome/version"
 
 module ThockyPalindrome
   def palindrome?
-    processed_content == processed_content.reverse
+    !processed_content.empty? && (processed_content == processed_content.reverse)
   end
   
   private
